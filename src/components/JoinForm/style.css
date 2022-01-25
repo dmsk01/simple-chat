@@ -1,0 +1,8 @@
+.join {
+  display: flex;
+  flex-direction: column;
+}
+
+.join > *:not(:last-child) {
+  margin-bottom: 10px;
+}
