@@ -15,7 +15,12 @@ function JoinBlock({ onLogin }) {
       userName,
     };
     setLoading(true);
-    await axios.post("/rooms", obj);
+    try {
+      await axios.post("/rooms", obj);
+    } catch (e) {
+      console.log(e);
+    }
+
     onLogin(obj);
   };
 
