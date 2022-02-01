@@ -16,7 +16,6 @@
     "socket.io-client": "^2.3.0"
   },
   "scripts": {
-    "server": "nodemon server.js",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
